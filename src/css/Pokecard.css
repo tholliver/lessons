@@ -1,0 +1,41 @@
+.App {
+  font-family: SF Pro Display;
+  
+}
+.Card {
+  background-color: skyblue;
+  width: 250px;
+  padding: 10px;
+  margin: 0.9rem; /*MARGEN TO sepate the elements*/
+  border-radius: 7px;
+  box-shadow: 7px 10px 12px -5px rgb(0, 0, 0.56);
+  text-align: center;
+}
+
+
+/*Photo file*/
+
+.caracterPok{
+    background-color: silver;
+    border-radius: 3px;
+}
+
+.caracterPok img {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  transition: transform 0.3s; /* Animation */
+}
+.caracterPok img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*LE FONTS */
+h3 {
+  color: blue;
+  font-weight: bold;
+}
+p {
+  padding: 0 0 0 0;  
+  margin: 0 0 0 0;
+}

@@ -1,12 +1,12 @@
-import { choise, remove, counter } from "./helpers";
-import fruts from "./foods";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './css/index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-var n = choise(fruts);
+ReactDOM.render(<App />, document.getElementById('root'));
 
-console.log("I would like " + fruts[n] + ", please");
-console.log("Here you go: " + fruts[n]);
-let newDep=remove(fruts, n);
-
-console.log("Sorry we dont have that anymore");
-let nume = counter(newDep);
-console.log(`We just have ${nume} fruits remaining`);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();

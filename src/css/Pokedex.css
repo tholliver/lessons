@@ -1,0 +1,17 @@
+.pokeCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Pokedex{
+    text-align: center;
+}
+
+h2.win-hand{
+    color: forestgreen;
+
+}
+h2.lose-hand{
+    color: red;
+}
